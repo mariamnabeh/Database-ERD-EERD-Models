@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="uJyYi2tmUaTDkTjUl_lo" name="Page-1">
-        <mxGraphModel dx="969" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1386" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -60,13 +60,18 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="0eb3gXGxsyH17AKuNEHv-15" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;fillColor=#cdeb8b;strokeColor=#36393d;" value="departments" vertex="1">
-                    <mxGeometry height="70" width="170" x="60" y="290" as="geometry"/>
+                    <mxGeometry height="70" width="340" x="60" y="290" as="geometry"/>
                 </mxCell>
                 <mxCell id="0eb3gXGxsyH17AKuNEHv-16" parent="0eb3gXGxsyH17AKuNEHv-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
-                    <mxGeometry height="40" width="170" y="30" as="geometry"/>
+                    <mxGeometry height="40" width="340" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="0eb3gXGxsyH17AKuNEHv-17" parent="0eb3gXGxsyH17AKuNEHv-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;u&gt;dept_id&lt;/u&gt;" vertex="1">
                     <mxGeometry height="40" width="170" as="geometry">
+                        <mxRectangle height="40" width="170" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0eb3gXGxsyH17AKuNEHv-78" parent="0eb3gXGxsyH17AKuNEHv-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Name" vertex="1">
+                    <mxGeometry height="40" width="170" x="170" as="geometry">
                         <mxRectangle height="40" width="170" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -182,12 +187,12 @@
                 <mxCell id="0eb3gXGxsyH17AKuNEHv-65" parent="0eb3gXGxsyH17AKuNEHv-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
                     <mxGeometry height="50" width="230" y="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="0eb3gXGxsyH17AKuNEHv-66" parent="0eb3gXGxsyH17AKuNEHv-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Course_id" vertex="1">
+                <mxCell id="0eb3gXGxsyH17AKuNEHv-66" parent="0eb3gXGxsyH17AKuNEHv-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;u&gt;Course_id&lt;/u&gt;" vertex="1">
                     <mxGeometry height="50" width="110" as="geometry">
                         <mxRectangle height="50" width="110" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="0eb3gXGxsyH17AKuNEHv-67" parent="0eb3gXGxsyH17AKuNEHv-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Prof_id" vertex="1">
+                <mxCell id="0eb3gXGxsyH17AKuNEHv-67" parent="0eb3gXGxsyH17AKuNEHv-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;u&gt;Prof_id&lt;/u&gt;" vertex="1">
                     <mxGeometry height="50" width="120" x="110" as="geometry">
                         <mxRectangle height="50" width="120" as="alternateBounds"/>
                     </mxGeometry>
@@ -198,12 +203,12 @@
                 <mxCell id="0eb3gXGxsyH17AKuNEHv-69" parent="0eb3gXGxsyH17AKuNEHv-68" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
                     <mxGeometry height="30" width="230" y="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="0eb3gXGxsyH17AKuNEHv-71" parent="0eb3gXGxsyH17AKuNEHv-69" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Course ID" vertex="1">
+                <mxCell id="0eb3gXGxsyH17AKuNEHv-71" parent="0eb3gXGxsyH17AKuNEHv-69" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;u&gt;Course ID&lt;/u&gt;" vertex="1">
                     <mxGeometry height="30" width="100" as="geometry">
                         <mxRectangle height="30" width="100" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="0eb3gXGxsyH17AKuNEHv-72" parent="0eb3gXGxsyH17AKuNEHv-69" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Course _Prerequisite" vertex="1">
+                <mxCell id="0eb3gXGxsyH17AKuNEHv-72" parent="0eb3gXGxsyH17AKuNEHv-69" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;u&gt;Course _Prerequisite&lt;/u&gt;" vertex="1">
                     <mxGeometry height="30" width="130" x="100" as="geometry">
                         <mxRectangle height="30" width="130" as="alternateBounds"/>
                     </mxGeometry>
